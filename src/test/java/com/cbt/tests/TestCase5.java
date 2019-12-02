@@ -1,11 +1,13 @@
 package com.cbt.tests;
 
 import com.cbt.utilities.BrowserFactory;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class TestCase5 {
     public static void main(String[] args) {
+
         WebDriver driver = BrowserFactory.getDriver("chrome");
         driver.get("https://practice-cybertekschool.herokuapp.com/");
 
